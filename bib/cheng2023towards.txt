@@ -1,7 +1,0 @@
-@inproceedings{cheng2023towards,
-  title={Towards GPU Memory Efficiency for Distributed Training at Scale},
-  author={Cheng, Runxiang and Cai, Chris and Yilmaz, Selman and Mitra, Rahul and Bag, Malay and Ghosh, Mrinmoy and Xu, Tianyin},
-  booktitle={Proceedings of the 14th ACM Symposium on Cloud Computing (SoCC)},
-  pages={281--297},
-  year={2023}
-}

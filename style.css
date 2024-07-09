@@ -9,22 +9,23 @@ body {
 
 h1 {
     font-weight: normal;
-    margin-bottom: -10pt;
+    /* margin-bottom: -10pt; */
 }
 
 
-h2 {
+/* h2 {
     margin-bottom: -5pt;
-}
+} */
 
 li {
-    list-style-type: none;
+    /* list-style-type: none; */
     padding: 5pt;
 }
 
-ul {
-    list-style: none;
-    padding-left: 0;
+ul,
+ol {
+    /* list-style: none; */
+    padding-left: 15pt;
 }
 
 
@@ -34,24 +35,15 @@ a.url {
 }
 
 
-a.underline {
-    color: #000000;
-    text-decoration: underline;
-}
-
 span.red {
     color: #FF0000;
 }
 
 
-img {
+img.profile-image {
     margin-left: 50pt;
     margin-bottom: 20pt;
     float: right;
-}
-
-
-img.profile-image {
     width: 130px;
     height: 130px;
     border-radius: 50%;
