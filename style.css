@@ -37,28 +37,3 @@ img.profile-image {
     object-fit: cover;
 }
 
-
-/* --- Styles for pure HTML/CSS collapsible sections --- */
-
-/* Style the <summary> tag which is the clickable part */
-summary {
-    cursor: pointer;
-    user-select: none;
-    /* Prevents text selection on click */
-    list-style: none;
-    /* Removes the default disclosure triangle */
-}
-
-/* We put the h2 inside the summary, so let's style it */
-summary h2 {
-    display: inline-block;
-    /* Allows the h2 and our custom marker to be on the same line */
-    font-family: sans-serif;
-    margin-top: 0;
-}
-
-
-/* Style the content inside the <details> tag (everything except the summary) */
-details> :not(summary) {
-    margin-top: 0;
-}
