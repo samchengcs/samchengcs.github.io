@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic'); */
 
 body {
-    font-family: 'Titillium Web',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: 'Titillium Web', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     max-width: 850px;
     margin: 0 auto;
 }
@@ -38,3 +38,27 @@ img.profile-image {
 }
 
 
+/* --- Styles for pure HTML/CSS collapsible sections --- */
+
+/* Style the <summary> tag which is the clickable part */
+summary {
+    cursor: pointer;
+    user-select: none;
+    /* Prevents text selection on click */
+    list-style: none;
+    /* Removes the default disclosure triangle */
+}
+
+/* We put the h2 inside the summary, so let's style it */
+summary h2 {
+    display: inline-block;
+    /* Allows the h2 and our custom marker to be on the same line */
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+
+/* Style the content inside the <details> tag (everything except the summary) */
+details> :not(summary) {
+    margin-top: 0;
+}
