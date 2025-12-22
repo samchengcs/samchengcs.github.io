@@ -16,6 +16,11 @@ li {
 }
 
 
+ul li::marker {
+    font-size: 1rem;
+}
+
+
 a.url {
     color: #4169E1;
     text-decoration: none;
